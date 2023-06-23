@@ -16,7 +16,7 @@ This project serves as a playground for practicing backend technologies.
 
 The project follows a structured approach to ensure maintainability and scalability. Here is an overview of the main components:
 
-<img src="https://github.com/ek-popkova/masa-store-backend/assets/111788752/5b2da964-4312-4f8d-b6c7-1fb350e07160" alt="structure" style="width: 700px;">
+<img src="https://github.com/ek-popkova/store-management-backend/assets/111788752/5b2da964-4312-4f8d-b6c7-1fb350e07160" alt="structure" style="width: 700px;">
 
 
 1. **Middleware**: The middleware is responsible for managing the authentication process, ensuring secure access to the application's resources.
