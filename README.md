@@ -12,6 +12,16 @@ This project serves as a playground for practicing backend technologies.
 - MSSQL (Microsoft SQL Server) for the database
 - Postman
 
+## :building_construction: Project Structure
+
+The project follows a structured approach to ensure maintainability and scalability. Here is an overview of the main components:
+<img src="https://github.com/ek-popkova/masa-store-backend/assets/111788752/77f3573b-1ec4-42bf-b7ea-19ddcd9d4315" alt="structure" style="width: 700px;">
+
+1. **Middleware**: The middleware is responsible for managing the authentication process, ensuring secure access to the application's resources.
+2. **Controllers**: Controllers are used to handle incoming requests, route them to the appropriate services, and manage the overall flow of data within the backend application.
+3. **Services**: The core business logic is implemented within the services. Most of the services inherit from an abstract class called "UniversalService." This abstract class provides common functionality and defines abstract methods that must be implemented by the derived services. The services use stored procedures to interact with the database. The "StoreService" and "AuthenticationService" use parametrized queries for their specific requirements. This division was implemented to practice both approaches and maintain code modularity.
+4. **Helpers**: Helpers are utilized to provide reusable functions and utility methods that assist in performing common tasks within the backend application, promoting code reusability and maintainability.
+
 ## :rocket: Main Features and Overview
 
 The backend utilizes MSSQL as the underlying database technology. 
@@ -26,17 +36,11 @@ Most of the CRUD (Create, Read, Update, Delete) operations are performed using s
 All CRUD operations have been thoroughly tested using Postman, ensuring the reliability and correctness of the API endpoints.
 
 Example of authentication process:
+
 <img src="https://github.com/ek-popkova/masa-store-backend/assets/111788752/0a02336e-ab8b-41fd-bc6c-dc1fbc5b99db" alt="postman_ex1" style="width: 700px;">
 
 Example of request:
+
 <img src="https://github.com/ek-popkova/masa-store-backend/assets/111788752/6524fa9a-5c5a-4032-9091-affb62472409" alt="postman_ex2" style="width: 700px;">
 
-## :building_construction: Project Structure
 
-The project follows a structured approach to ensure maintainability and scalability. Here is an overview of the main components:
-<img src="https://github.com/ek-popkova/masa-store-backend/assets/111788752/77f3573b-1ec4-42bf-b7ea-19ddcd9d4315" alt="structure" style="width: 700px;">
-
-1. **Middleware**: The middleware is responsible for managing the authentication process, ensuring secure access to the application's resources.
-2. **Controllers**: Controllers are used to handle incoming requests, route them to the appropriate services, and manage the overall flow of data within the backend application.
-3. **Services**: The core business logic is implemented within the services. Most of the services inherit from an abstract class called "UniversalService." This abstract class provides common functionality and defines abstract methods that must be implemented by the derived services. The services use stored procedures to interact with the database. The "StoreService" and "AuthenticationService" use parametrized queries for their specific requirements. This division was implemented to practice both approaches and maintain code modularity.
-4. **Helpers**: Helpers are utilized to provide reusable functions and utility methods that assist in performing common tasks within the backend application, promoting code reusability and maintainability.
