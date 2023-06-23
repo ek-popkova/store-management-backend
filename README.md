@@ -4,7 +4,7 @@ This repository contains the backend implementation of a web application designe
 
 This project serves as a playground for practicing backend technologies.
 
-## :hammer_and_wrench: Technologies and tools Used
+## :hammer_and_wrench: Technologies and tools used
 
 - Node.js
 - TypeScript
