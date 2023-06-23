@@ -1,6 +1,6 @@
 # :department_store: Store Management Web Application Backend
 
-This README file provides an overview of the backend part of a web application designed for store management. It allows access to lists of stores, products, their quantities, store locations, as well as employee details, job roles, and authentication and authorization functionalities. 
+This repository contains the backend implementation of a web application designed for managing a store. It provides access to various resources such as stores, products, product quantities, store locations, employees with their details, job roles, and implements authentication and authorization functionalities.
 
 This project serves as a playground for practicing backend technologies.
 
