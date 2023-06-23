@@ -1,4 +1,4 @@
-# :shopping_bags: Store Management Web Application Backend
+# :department_store: Store Management Web Application Backend
 
 This README file provides an overview of the backend part of a web application designed for store management. It allows access to lists of stores, products, their quantities, store locations, as well as employee details, job roles, and authentication and authorization functionalities. 
 
@@ -15,14 +15,20 @@ This project serves as a playground for practicing backend technologies.
 ## :rocket: Main Features and Overview
 
 The backend utilizes MSSQL as the underlying database technology. 
+
 <img src="https://github.com/ek-popkova/masa-store-backend/assets/111788752/51c5bb19-01d8-4d4e-98b4-8eb6f1e3c8fc" alt="database" style="width: 700px;">
 
 Most of the CRUD (Create, Read, Update, Delete) operations are performed using stored procedures with transactions. However, some CRUD operations utilize parametrized queries.
+
 <img src="https://github.com/ek-popkova/masa-store-backend/assets/111788752/55650325-1ae4-4ead-81ba-2fbec0c04e3c" alt="procedures" style="width: 700px;">
 
 
 All CRUD operations have been thoroughly tested using Postman, ensuring the reliability and correctness of the API endpoints.
+
+Example of authentication process:
 <img src="https://github.com/ek-popkova/masa-store-backend/assets/111788752/0a02336e-ab8b-41fd-bc6c-dc1fbc5b99db" alt="postman_ex1" style="width: 700px;">
+
+Example of request:
 <img src="https://github.com/ek-popkova/masa-store-backend/assets/111788752/6524fa9a-5c5a-4032-9091-affb62472409" alt="postman_ex2" style="width: 700px;">
 
 ## :building_construction: Project Structure
