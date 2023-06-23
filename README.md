@@ -16,7 +16,7 @@ This project serves as a playground for practicing backend technologies.
 
 The project follows a structured approach to ensure maintainability and scalability. Here is an overview of the main components:
 
-<img src="https://github.com/ek-popkova/store-management-backend/assets/111788752/5b2da964-4312-4f8d-b6c7-1fb350e07160" alt="structure" style="width: 700px;">
+<img src="https://github.com/ek-popkova/store-management-backend/assets/111788752/800dc480-f04c-4a89-9c90-635b769dbf5e" alt="structure" style="width: 700px;">
 
 
 1. **Middleware**: The middleware is responsible for managing the authentication process, ensuring secure access to the application's resources.
@@ -28,21 +28,21 @@ The project follows a structured approach to ensure maintainability and scalabil
 
 The backend utilizes MSSQL as the underlying database technology. 
 
-<img src="https://github.com/ek-popkova/masa-store-backend/assets/111788752/51c5bb19-01d8-4d4e-98b4-8eb6f1e3c8fc" alt="database" style="width: 700px;">
+<img src="https://github.com/ek-popkova/store-management-backend/assets/111788752/f7c2a022-dcdc-4b82-95eb-6ca9a05b2a7f" alt="database" style="width: 700px;">
 
 Most of the CRUD (Create, Read, Update, Delete) operations are performed using stored procedures with transactions. However, some CRUD operations utilize parametrized queries.
 
-<img src="https://github.com/ek-popkova/masa-store-backend/assets/111788752/55650325-1ae4-4ead-81ba-2fbec0c04e3c" alt="procedures" style="width: 700px;">
+<img src="https://github.com/ek-popkova/store-management-backend/assets/111788752/4aca9780-97bc-4e66-8066-0324f28eb24d" alt="procedures" style="width: 700px;">
 
 
 All CRUD operations have been thoroughly tested using Postman, ensuring the reliability and correctness of the API endpoints.
 
 Example of authentication process:
 
-<img src="https://github.com/ek-popkova/masa-store-backend/assets/111788752/0a02336e-ab8b-41fd-bc6c-dc1fbc5b99db" alt="postman_ex1" style="width: 700px;">
+<img src="https://github.com/ek-popkova/store-management-backend/assets/111788752/1cea0d22-ff04-4d34-85d7-017734980f6d" alt="postman_ex1" style="width: 700px;">
 
 Example of request:
 
-<img src="https://github.com/ek-popkova/masa-store-backend/assets/111788752/6524fa9a-5c5a-4032-9091-affb62472409" alt="postman_ex2" style="width: 700px;">
+<img src="https://github.com/ek-popkova/store-management-backend/assets/111788752/71aed1ca-8907-4ab3-9511-d31d284c076c" alt="postman_ex2" style="width: 700px;">
 
 
