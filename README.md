@@ -4,13 +4,13 @@ This repository contains the backend implementation of a web application designe
 
 This project serves as a playground for practicing backend technologies.
 
-## :hammer_and_wrench: Technologies Used
+## :hammer_and_wrench: Technologies and tools Used
 
 - Node.js
 - TypeScript
 - Express
 - MSSQL (Microsoft SQL Server) for the database
-- Postman for API testing
+- Postman
 
 ## :rocket: Main Features and Overview
 
