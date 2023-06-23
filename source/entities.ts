@@ -30,6 +30,7 @@ export interface employee extends entityWithId {
 export interface user extends entityWithId {
     login: string;
     password: string;
+    role: string;
     email: string;
 }
 export interface relation {

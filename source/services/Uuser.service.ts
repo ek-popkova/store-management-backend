@@ -13,6 +13,7 @@ interface IUserService<user> {
 interface localUser extends entityWithId {
     login: string;
     password: string;
+    role: string;
     email: string
 }
 
@@ -28,6 +29,7 @@ export class UUserService extends UniversalService<user> implements IUserService
         return {
             id: local.id,
             login: local.login,
+            role: local.role,
             password: local.password,
             email: local.email
         };
